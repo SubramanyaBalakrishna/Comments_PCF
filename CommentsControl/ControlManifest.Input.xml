@@ -5,14 +5,14 @@
     </external-service-usage>   
     <data-set name="dataset" display-name-key="Dataset_Display_Key" cds-data-set-options="displayCommandBar:true;displayViewSelector:true;displayQuickFind:true">     
     </data-set>
-    <property name="MessageProperty" display-name-key="MessageProperty_Display_Key"
-    description-key="MessageProperty_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
-    <property name="DateProperty" display-name-key="DateProperty_Display_Key"
-    description-key="DateProperty_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
-    <property name="UserProperty" display-name-key="UserProperty_Display_Key"
-    description-key="UserProperty_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
-    <property name="ParentLookUpProperty" display-name-key="ParentLookUpProperty_Display_Key"
-    description-key="ParentLookUpProperty_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="MessageProperty" display-name-key="MessageProperty"
+    description-key="Schema Name of table column for message column" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="DateProperty" display-name-key="DateProperty"
+    description-key="Schema Name of table column for date column" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="UserProperty" display-name-key="UserProperty"
+    description-key="Schema Name of table column for user column" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="ParentLookUpProperty" display-name-key="ParentLookUpProperty"
+    description-key="Schema Name of table column for Parent lookup column" of-type="SingleLine.Text" usage="input" required="true" />
     <resources>
       <code path="index.ts" order="1"/>
       <platform-library name="React" version="16.8.6" />
