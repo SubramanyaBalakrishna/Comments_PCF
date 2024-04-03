@@ -1,5 +1,5 @@
 
-Comments PCF is a PowerApps Component Framework (PCF) component that utilizes Fluent UI Activity Item styles to render custom comments in conversation format within Model Driven Apps
+Comments PCF is a PowerApps Component Framework (PCF) component that utilizes Fluent UI styles to render custom comments in conversation format within Model Driven Apps
 
 **Feature**
 
